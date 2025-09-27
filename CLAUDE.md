@@ -66,8 +66,11 @@ The application follows a client-side architecture where all file operations hap
 
 ### Development Best Practices
 
-- Follow the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/#specification) for the commit messages.
 - Use comments sparingly. Only comment complex code.
+- Follow the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/#specification) for the commit messages.
+- Always use context7 when I need code generation, setup or configuration steps, or
+  library/API documentation. This means you should automatically use the Context7 MCP
+  tools to resolve library id and get library docs without me having to explicitly ask.
 
 ### Database
 
